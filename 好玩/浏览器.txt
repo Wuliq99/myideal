@@ -1,0 +1,5 @@
+直接编辑网页
+在你的 console 里 输入下面的命令：
+
+document.designMode = "on" 
+于是你就可以直接修改网页上的内容了。

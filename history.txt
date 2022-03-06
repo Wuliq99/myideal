@@ -1,0 +1,1002 @@
+  999  python LoadCFilesAsText.py 
+ 1000  python Train_Text_CNN.py 
+ 1001  python Test.py 
+ 1002  cd data/
+ 1003  cd Text_CNN/
+ 1004  cd c
+ 1005  cd csv/
+ 1006  python opera_csv.py 
+ 1007  cd
+ 1008  cd kerwin/
+ 1009  cd Elmo/
+ 1010  cd ..
+ 1011  cd results/
+ 1012  cd csv-union/
+ 1013  cd elmo/
+ 1014  cd Text_CNN/
+ 1015  python opera_csv.py 
+ 1016  cd
+ 1017  cd kerwin/
+ 1018  cd results/
+ 1019  cd csv-union/
+ 1020  cd elmo/
+ 1021  cd BiGRU/
+ 1022  python opera_csv.py 
+ 1023  source ativate secgpu
+ 1024  source activate secgpu
+ 1025  cd kerwin/word2vec/LSTM/
+ 1026  python Embedding.py 
+ 1027  source activate secgpu
+ 1028  cd kerwin/
+ 1029  cd word2vec
+ 1030  cd LSTM/
+ 1031  cd data/
+ 1032  cd Train/
+ 1033  cd Asterisk/
+ 1034  python removeComments_Blanks.py 
+ 1035  source activate secgpu
+ 1036  cd kerwin/Bert/Bert/LSTM/SRC/
+ 1037  python Embedding.py 
+ 1038  source activate secgpu
+ 1039  cd kerwin/Elmo/elmo2/LSTM/SRC/
+ 1040  python Embedding.py 
+ 1041  deactivate
+ 1042  conda deactivate
+ 1043  conda env list
+ 1044  source activate elmo2
+ 1045  python Embedding.py 
+ 1046  cd kerwin/Elmo/elmo2/LSTM/SRC/
+ 1047  source activate elmo2
+ 1048  python Embedding.py 
+ 1049  ls
+ 1050  cd 下载
+ 1051  ls
+ 1052  sudo dpkg -i LemonLime-0.2.10-debian-stable.deb 
+ 1053  sudo apt install -f
+ 1054  cd 桌面
+ 1055  ls
+ 1056  cd CCUT20210401/
+ 1057  ls
+ 1058  cd data/
+ 1059  ls
+ 1060  cd j
+ 1061  ls
+ 1062  g++ -v
+ 1063  nvidia-smi
+ 1064  sudo lemon 
+ 1065  activate elmo2
+ 1066  cd kerwin/Elmo/elmo2/LSTM/SRC/
+ 1067  python Embedding.py 
+ 1068  source activatre elmo2
+ 1069  source activate elmo2
+ 1070  python Embedding.py 
+ 1071  ifconfig
+ 1072  sudo apt install net-tools
+ 1073  sudo apt install ssh
+ 1074  ifconfig
+ 1075  conda activate secgpu
+ 1076  cd kerwin/Bert/Bert/LSTM/SRC/
+ 1077  python Embedding.py 
+ 1078  conda activate BERT
+ 1079  conda activate Bert
+ 1080  cd kerwin/Bert/Bert/
+ 1081  cd LSTM/
+ 1082  cd Src
+ 1083  cd SRC/
+ 1084  dir
+ 1085  cd data/
+ 1086  dir
+ 1087  cd ..
+ 1088  cd data/
+ 1089  bert-serving-start -model_dir cased_L-12_H-768_A-12 -num_worker=4
+ 1090  conda deactivate
+ 1091  source activate secgpu
+ 1092  bert-serving-start -model_dir cased_L-12_H-768_A-12 -num_worker=4
+ 1093  bert-serving-start -model_dir ./cased_L-12_H-768_A-12 -num_worker=4
+ 1094  conda deactivate
+ 1095  conda env list
+ 1096  watch -n 2 nvidia-smi
+ 1097  watch -n 2 nvidia-smi 
+ 1098  nvidia-smi 
+ 1099  nvidia -smi 
+ 1100  watch -n 2 nvidia-smi 
+ 1101  source activate elmo2
+ 1102  cd kerwin/
+ 1103  cd Elmo/
+ 1104  cd elmo2/
+ 1105  cd LSTM/
+ 1106  cd SRC/
+ 1107  python Embedding.py 
+ 1108  free -h
+ 1109  datetime.datetime.now()
+ 1110  datetime.datetime.now()
+ 1111  free -h
+ 1112  watch 2s nvidia-smi
+ 1113  free -h
+ 1114  watch -n 2 nvidia-smi 
+ 1115  nvidia-smi
+ 1116  free -h
+ 1117  source activate secgpu
+ 1118  cd kerwin/Elmo/elmo2/LSTM/SRC/
+ 1119  python Embedding.py 
+ 1120  conda deactivate
+ 1121  source activate elmo2
+ 1122  python Embedding.py 
+ 1123  free -h
+ 1124  nvidia-smi
+ 1125  source activate secgpu
+ 1126  python test.py 
+ 1127  cd Elmo/elmo2/LSTM/SRC/
+ 1128  python Embedding.py 
+ 1129  conda deactivate
+ 1130  source activate elmo2
+ 1131  python Embedding.py 
+ 1132  nvidia-smi
+ 1133  python Embedding.py 
+ 1134  nvidia-smi
+ 1135  cd
+ 1136  cd kerwin/
+ 1137  python check.py 
+ 1138  cd Elmo/elmo2/LSTM/SRC/
+ 1139  python Embedding.py 
+ 1140  watch -n 5 nvidia-smi
+ 1141  free -h
+ 1142  watch -n 5 nvidia-smi
+ 1143  watch -n 2 nvidia-smi
+ 1144  watch -n 2 nvidia-smi
+ 1145  free -h
+ 1146  screenfetch
+ 1147  top
+ 1148  watch -n 2 nvidia-smi
+ 1149  screenfetch
+ 1150  source activate elmo2
+ 1151  pip list
+ 1152  watch -n 2 nvidia-smi
+ 1153  source activate elmo2
+ 1154  pip list
+ 1155  conda list
+ 1156  sudo cp -a /home/acm/kerwin/Elmo/elmo2/LSTM /media/acm/FB95-D5D0/
+ 1157  screenfetch
+ 1158  screenfetch
+ 1159  activate secgpu
+ 1160  conda activate secgpu
+ 1161  cd kerwin/word2vec/Text_CNN/
+ 1162  python Train_Text_CNN.py 
+ 1163  vim ~/.bashrc
+ 1164  conda create -n yolo python==3.6
+ 1165  activate tensorflow2
+ 1166  activate yolo
+ 1167  conda list
+ 1168  conda envs list
+ 1169  conda env
+ 1170  source activate yolo
+ 1171  git clone https://gitee.com/paddlepaddle/PaddleDetection.git
+ 1172  cd PaddleDetection/
+ 1173  pip -U requirements.txt install
+ 1174  pip install -r requirements.txt
+ 1175  python ppdet/modeling/tests/test_architectures.py
+ 1176  pip install paddlepaddle-gpu
+ 1177  python ppdet/modeling/tests/test_architectures.py
+ 1178  pip install -r requirements.txt
+ 1179  python ppdet/modeling/tests/test_architectures.py
+ 1180  conda install cudatoolkit=10.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/
+ 1181  conda install cudnn=7.4.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
+ 1182  python ppdet/modeling/tests/test_architectures.py
+ 1183  conda list
+ 1184  conda install cudnn=7.4.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
+ 1185  conda install cudnn
+ 1186  python ppdet/modeling/tests/test_architectures.py
+ 1187  conda list
+ 1188  nvidia-smi
+ 1189  conda install cudatoolkit
+ 1190  conda install cudatoolkit==11.0
+ 1191  conda install cudatoolkit==11.1
+ 1192  conda deactivate
+ 1193  activate secgpu
+ 1194  cd ..
+ 1195  cd kerwin/
+ 1196  python test.py 
+ 1197  source activate secgpu
+ 1198  python test.py 
+ 1199  cd ..
+ 1200  cd PaddleDetection/
+ 1201  conda deactivate
+ 1202  source activate yolo
+ 1203  python ppdet/modeling/tests/test_architectures.py
+ 1204  source activate secgpu
+ 1205  conda deactivate
+ 1206  source activate secgpu
+ 1207  python ppdet/modeling/tests/test_architectures.py
+ 1208  conda deactivate
+ 1209  source activate yolo
+ 1210  conda list
+ 1211  python -m pip install paddlepaddle-gpu==2.0.2.post101 -f https://paddlepaddle.org.cn/whl/mkl/stable.html
+ 1212  python ppdet/modeling/tests/test_architectures.py
+ 1213  conda list
+ 1214  python -m pip install paddlepaddle-gpu==2.0.2.post101 -f https://paddlepaddle.org.cn/whl/mkl/stable.html
+ 1215  nvcc -V
+ 1216  pip install cudnn
+ 1217  conda install cudnn
+ 1218  python3 -m ensurepip
+ 1219  python -m pip --version
+ 1220  python3 -c "import platform;print(platform.architecture()[0]);print(platform.machine())"
+ 1221  python -m pip install paddlepaddle-gpu==2.0.2.post101 -f https://paddlepaddle.org.cn/whl/mkl/stable.html
+ 1222  python 
+ 1223  conda install cunda
+ 1224  conda install cuda
+ 1225  conda install cuda==10.1
+ 1226  conda install paddlepaddle-gpu==2.0.2 cudatoolkit=10.1 -c paddle
+ 1227  conda install cuda
+ 1228  conda list
+ 1229  conda install cuda==10.1.130
+ 1230  conda install cuda==10.1.13.0
+ 1231  pip list
+ 1232  conda install cudnn
+ 1233  python ppdet/modeling/tests/test_architectures.py
+ 1234  find / -name 'lib64'
+ 1235  python ppdet/modeling/tests/test_architectures.py
+ 1236  vim ~/.bashrc
+ 1237  sourse activate yolo
+ 1238  source activate yolo
+ 1239  cd P
+ 1240  cd PaddleDetection/
+ 1241  python ppdet/modeling/tests/test_architectures.py
+ 1242  vim ~/.bashrc
+ 1243  python ppdet/modeling/tests/test_architectures.py
+ 1244  vim ~/.bashrc
+ 1245  python ppdet/modeling/tests/test_architectures.py
+ 1246  vim ~/.bashrc
+ 1247  python ppdet/modeling/tests/test_architectures.py
+ 1248  source activate yolo
+ 1249  cd PaddleDetection/
+ 1250  python ppdet/modeling/tests/test_architectures.py
+ 1251  conda install cudatoolkit=10.0
+ 1252  python ppdet/modeling/tests/test_architectures.py
+ 1253  conda install
+ 1254  conda list
+ 1255  conda install cudatoolkit=10.2
+ 1256  python ppdet/modeling/tests/test_architectures.py
+ 1257  conda install cudatoolkit=10.3
+ 1258  conda install cudatoolkit=9
+ 1259  python ppdet/modeling/tests/test_architectures.py
+ 1260  conda install cudatoolkit=9.0
+ 1261  python ppdet/modeling/tests/test_architectures.py
+ 1262  conda install cudatoolkit=10.1
+ 1263  python ppdet/modeling/tests/test_architectures.py
+ 1264  conda install cudnn=7.3
+ 1265  conda install cudnn=7.4
+ 1266  conda install cudnn=7.6
+ 1267  conda install cudnn=7.5
+ 1268  conda install cudnn=7
+ 1269  python ppdet/modeling/tests/test_architectures.py
+ 1270  ls /usr/lib |grep lib
+ 1271  locate libcudnn.so
+ 1272  cd ..
+ 1273  cd usr/
+ 1274  cd lib
+ 1275  locate libcudnn.so
+ 1276  libcublas.so
+ 1277  sudo ln -s /home/haoluo/Downloads/cuda/lib64/libcudnn.so.7.6.4 libcudnn.so
+ 1278  activate yolo
+ 1279  source activate
+ 1280  source activate yolo
+ 1281  cd ..
+ 1282  cd .
+ 1283  cd ..
+ 1284  cd home/
+ 1285  cd acm/
+ 1286  cd PaddleDetection/
+ 1287  conda install cudnn=7.6.4
+ 1288  python ppdet/modeling/tests/test_architectures.py
+ 1289  cd ..
+ 1290  conda install cudnn=7.3
+ 1291  cd ..
+ 1292  conda list
+ 1293  cd ..
+ 1294  cd user
+ 1295  cd ..
+ 1296  cd usr/
+ 1297  cd lib
+ 1298  sudo ln -s /home/haoluo/anaconda3/lib/libcublas.so.10.1.243 libcublas.so
+ 1299  cd ..
+ 1300  cd h
+ 1301  cd ..
+ 1302  cd home/
+ 1303  cd acm/
+ 1304  cd PaddleDetection/
+ 1305  python ppdet/modeling/tests/test_architectures.py
+ 1306  df
+ 1307  source activate PaddleDetection/
+ 1308  source activate yolo
+ 1309  cd PaddleDetection/
+ 1310  python ppdet/modeling/tests/test_architectures.py
+ 1311  
+paddle.fluid.install_check.run_check()
+ 1312  paddle.fluid.install_check.run_check()
+ 1313  conda install 10.0
+ 1314  conda install cudatoolkit=10.0
+ 1315  python ppdet/modeling/tests/test_architectures.py
+ 1316  conda install cudatoolkit=10.1
+ 1317  conda install cudnn==7.8
+ 1318  anaconda navigator
+ 1319  anaconda navi
+ 1320  anaconda-navigator
+ 1321  top
+ 1322  env list
+ 1323  conda create -n xlnet python==3.6
+ 1324  conda activate xlnet
+ 1325  p7zip
+ 1326  sudo apt install p7zip
+ 1327  list
+ 1328  cd home
+ 1329  cd ..
+ 1330  cd news
+ 1331  cd ..
+ 1332  cd home
+ 1333  cd acm
+ 1334  cd news/
+ 1335  cd xlnets/
+ 1336  pip install -r req.txt
+ 1337  pip install pandas
+ 1338  python demo.py 
+ 1339  pip install keras==2.2.4
+ 1340  pip list
+ 1341  pip install tensorflow==1.15
+ 1342  pip install keras-bert==0.80.0
+ 1343  pip install keras-transformer==0.38.0
+ 1344  pip install tensorflow-gpu==1.15.0
+ 1345  conda install cudatoolkit=10.0 cudnn=7.6.5
+ 1346  python demo.py 
+ 1347  pip install keras-xlnet==0.16.0
+ 1348  python demo.py 
+ 1349  pip install scikit-learn==0.24.1
+ 1350  python demo.py 
+ 1351  pip list
+ 1352  pip install h5py==2.10.0
+ 1353  python demo.py 
+ 1354  conda activate xlnet
+ 1355  cd news/xlnets/
+ 1356  python demo.py 
+ 1357  conda activate xlnet
+ 1358  cd news/xlnets/
+ 1359  python demo.py 
+ 1360  cd /usr/lib
+ 1361  nvidia-smi
+ 1362  watch -n 1 nvidia-smi
+ 1363  source activate yolo
+ 1364  conda deactivate
+ 1365  conda create -n yolov4 python=3.5
+ 1366  conda create -n yolov4 python=3.6
+ 1367  souurce activate yolov4
+ 1368  source activate yolov4
+ 1369  cd 下载/
+ 1370  pip iinstall -r x-special/nautilus-clipboard
+ 1371  cut
+ 1372  file:///home/acm/%E4%B8%8B%E8%BD%BD/requirements.txt
+ 1373  pip install  requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+ 1374  pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+ 1375  cd ..
+ 1376  conda install cudatoolkit=10.1
+ 1377  conda install cudnn
+ 1378  conda list
+ 1379  python -m pip install paddlepaddle-gpu==2.0.2.post101 -f https://paddlepaddle.org.cn/whl/mkl/stable.html
+ 1380  cd p
+ 1381  cd PaddleDetection/
+ 1382  cd copy\(1\)/
+ 1383  cd home/
+ 1384  cd aistudio/
+ 1385  cd copy/
+ 1386  python train.py 
+ 1387  pip install opencv-python -i https://mirrors.aliyun.com/pypi/simple/
+ 1388  python train.py 
+ 1389  pip install pycocotools -i https://mirrors.aliyun.com/pypi/simple/
+ 1390  python train.py 
+ 1391  cd PaddleDetection/
+ 1392  cd h
+ 1393  cd copy\(1\)/
+ 1394  cd home/
+ 1395  cd aistudio/ 
+ 1396  dir
+ 1397  source activate yolov4
+ 1398  python train.py 
+ 1399  python
+ 1400  cd 67GB
+ 1401  cd ..
+ 1402  chattr -ia Trash-1000
+ 1403  rm -rf Trash-1000/
+ 1404  cd ..
+ 1405  mv ./Trash-1000/ ../
+ 1406  sudo mv ./Trash-1000/ ../
+ 1407  ls /usr/lib |grep lib
+ 1408  locate libcudnn.so
+ 1409  sudo apt install mlocate
+ 1410  locate libcudnn.so
+ 1411  locate libcublas.so
+ 1412  cd /usr/lib
+ 1413  sudo ln -s /home/acm/anaconda3/pkgs/cudnn-7.6.5-cuda10.1_0/lib/libcudnn.so.7.6.5
+ 1414  sudo ln -s /home/acm/anaconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0/lib/libcublas.so.10.2.1.243
+ 1415  ls /usr/lib |grep lib
+ 1416  sudo ln -s /home/acm/anaconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0/lib/libcublas.so
+ 1417  ls /usr/lib |grep lib
+ 1418  sudo ln -s /home/acm/anaconda3/pkgs/cudatoolkit-10.1.243-h6bb024c_0/lib/libcublas.so
+ 1419  cd ..
+ 1420  cd local/
+ 1421  dir
+ 1422  sudo ln -s /home/acm/anaconda3/pkgs/cudnn-7.6.4-cuda10.1_0/lib/libcudnn.so
+ 1423  ls /usr/lib |grep lib
+ 1424  conda activate xlnet
+ 1425  cd news/XLNet_embbeding-master/
+ 1426  python main.py 
+ 1427  conda create -n news python=3.6
+ 1428  conda activate news
+ 1429  pip install keras==2.3.1 https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1430  pip install keras==2.3.1 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1431  pip install Tensorflow == 1.14.0 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1432  pip install Tensorflow==1.14.0 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1433  pip install bert4keras == 0.8.4 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1434  pip install bert4keras==0.8.4 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1435  pip install Tensorflow-gpu==1.14.0 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+ 1436  cuda install cudatoolkit==10.1
+ 1437  conda install cudatoolkit==10.1
+ 1438  nvidia-smi
+ 1439  nvidia smi
+ 1440  nvidia -smi
+ 1441  nvidia-smi 
+ 1442  nvidia-smi 
+ 1443  rebot
+ 1444  rebo0t
+ 1445  reboot
+ 1446  nvidia-smi
+ 1447  conda activate news
+ 1448  conda install cudatoolkit=10.1
+ 1449  conda list
+ 1450  conda install cudnn
+ 1451  conda list
+ 1452  conda activate news
+ 1453  cd new
+ 1454  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1455  python data_utils.py 
+ 1456  pip install pandas -ihttps://pypi.tuna.tsinghua.edu.cn/simple
+ 1457  conda activate news
+ 1458  cd new
+ 1459  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1460  python pretraining.py 
+ 1461  pip install padas
+ 1462  pip install pandas
+ 1463  pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1464  pip install pandas -i https://pypi.douban.com/simple/ 
+ 1465  python pretraining.py 
+ 1466  pip install tqdm -i https://pypi.douban.com/simple/ 
+ 1467  python pretraining.py 
+ 1468  conda install cudatoolkit=10.0.130 
+ 1469  python pretraining.py 
+ 1470  conda activate bert
+ 1471  conda activate Bert
+ 1472  conda list
+ 1473  conda env list
+ 1474  conda deactivate
+ 1475  conda activate elmo
+ 1476  conda list
+ 1477  conda deactivate
+ 1478  conda activate elmo2
+ 1479  conda list
+ 1480  conda deactivate
+ 1481  conda activate news
+ 1482  cd new
+ 1483  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1484  python pretraining.py 
+ 1485  conda activate news
+ 1486  cd new
+ 1487  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1488  python pretraining.py 
+ 1489  activate news
+ 1490  cd new
+ 1491  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1492  python pretraining.py 
+ 1493  activate news
+ 1494  conda activate news
+ 1495  python pretraining.py 
+ 1496  conda activate new
+ 1497  conda activate news
+ 1498  cd new
+ 1499  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1500  python pretraining.py 
+ 1501  conda activate news
+ 1502  cd new
+ 1503  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1504  python pretraining.py 
+ 1505  nvidia-smi
+ 1506  conda activate news
+ 1507  cd new
+ 1508  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1509  python pretraining.py 
+ 1510  conda activate news
+ 1511  cd new
+ 1512  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1513  python pretraining.py 
+ 1514  conda activate news
+ 1515  cd new
+ 1516  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1517  nvidia-smi
+ 1518  cd NEWS-TEXT-CLASSIFICATION-master/
+ 1519  nvidia-smi
+ 1520  -e |grep ssh
+ 1521  ssh 'h3c'@'10.105.94.12'
+ 1522  h3c
+ 1523  ssh 'h3c'@'10.105.94.12'
+ 1524  ping 10.105.94.12
+ 1525  ssh 'h3c'@'10.105.94.12'
+ 1526  ssh h3c@10.105.94.12
+ 1527  h3c
+ 1528  ssh h3c@10.105.94.12
+ 1529  sshh3c@10.105.94.12
+ 1530  ssh h3c@10.105.94.13
+ 1531  ssh h3c@10.105.94.12
+ 1532  service sshd start
+ 1533  nvidia-smi
+ 1534  cd Dow
+ 1535  cd 下载
+ 1536  lls
+ 1537  ls
+ 1538  sudo dpkg -i sunloginclient-11.0.0.36662-amd64
+ 1539  activate xlnet
+ 1540  ls
+ 1541  conda list
+ 1542  conda activate xlnet
+ 1543  ls
+ 1544  python main.py 
+ 1545  .vim
+ 1546  vim
+ 1547  ls
+ 1548  vim deal_data.py 
+ 1549  python main.py 
+ 1550  ls
+ 1551  chmod 777 ./*
+ 1552  chmod 777 ./*/*
+ 1553  python main.py 
+ 1554  ls
+ 1555  ll
+ 1556  chmod 777 ./*/*/*
+ 1557  python main.py 
+ 1558  vim main.py 
+ 1559  python main.py 
+ 1560  vim main.py 
+ 1561  python main.py 
+ 1562  vim main.py 
+ 1563  ls
+ 1564  cd data/
+ 1565  ls
+ 1566  nm-connection-editor
+ 1567  top
+ 1568  screenfetch
+ 1569  top
+ 1570  screenfetch
+ 1571  watch -n 1 nvidia-smi
+ 1572  watch -n 0.5 nvidia-smi
+ 1573  watch -n 0.1 nvidia-smi
+ 1574  cd XLN
+ 1575  cd XLNet_embbeding-master/
+ 1576  ls
+ 1577  cd cd data/
+ 1578  ls
+ 1579  ll
+ 1580  ls -lh
+ 1581  cd data/
+ 1582  ls -lh
+ 1583  cd ..
+ 1584  ls
+ 1585  python main.py 
+ 1586  activate xlnet
+ 1587  conda activate XLNET
+ 1588  conda info --envs
+ 1589  conda activate xlnet
+ 1590  python main
+ 1591  python main.py 
+ 1592  ls
+ 1593  vim main.py 
+ 1594  python main.py 
+ 1595  vim deal_data.py 
+ 1596  python main.py 
+ 1597  vim deal_data.py 
+ 1598  python main.py 
+ 1599  vim deal_data.py 
+ 1600  gedit deal_data.py 
+ 1601  python main.py 
+ 1602  vim main.py 
+ 1603  python main.py 
+ 1604  sudo -i
+ 1605  ping authd.todesk.com
+ 1606  cd 下载
+ 1607  ls
+ 1608  rm -rf sunloginclient-11.0.0.36662-amd64
+ 1609  rm -rf sunloginclient-11.0.0.36662-amd64*
+ 1610  ls
+ 1611  rm -rf SSR*
+ 1612  ls
+ 1613  sudo dpkg -i todesk_2.0.2_amd64.deb 
+ 1614  sudo apt install -f
+ 1615  reboot
+ 1616  sudo reboot
+ 1617  activate xlnet
+ 1618  ls
+ 1619  cd XLNet_embbeding-master/
+ 1620  conda activate XLNET
+ 1621  conda activate Xlnet
+ 1622  conda activate XLnet
+ 1623  conda activate xlnet
+ 1624  python train.py 
+ 1625  ls
+ 1626  python train.py 
+ 1627  exit
+ 1628  screen
+ 1629  activate xlnet
+ 1630  activeta
+ 1631  activate xlnet
+ 1632  cd XLNet_embbeding-master/
+ 1633  activate xlnet
+ 1634  exit
+ 1635  ncidia-smi
+ 1636  nvidia-smi
+ 1637  activate xlnet
+ 1638  ls
+ 1639  cd XLNet_embbeding-master/
+ 1640  python train.py 
+ 1641  activate xlnet
+ 1642  conda activate xlnet
+ 1643  python train.py 
+ 1644  screent
+ 1645  screen
+ 1646  ls
+ 1647  cd kerwin/
+ 1648  ls
+ 1649  cd word2vec
+ 1650  ls
+ 1651  cd BiLSTM/
+ 1652  ls
+ 1653  sz BiLSTM_model_GPU.py 
+ 1654  sz Train_BiLSTM.py 
+ 1655  sz Train_LSTM_8_Projects.py 
+ 1656  ls
+ 1657  emm
+ 1658  ls
+ 1659  cd ..
+ 1660  ls
+ 1661  cd ..
+ 1662  ls
+ 1663  cd XLNet_embbeding-master/
+ 1664  ls
+ 1665  cd data/
+ 1666  ls
+ 1667  wc -c train.txt 
+ 1668  cd ..
+ 1669  ls
+ 1670  rz 
+ 1671  ls
+ 1672  rm train.py 
+ 1673  rz
+ 1674  nano train.py 
+ 1675  nano BiLSTM_model_GPU.py 
+ 1676  nano main.py 
+ 1677  python3 train.py 
+ 1678  conda activate xlnet
+ 1679  python3 train.py 
+ 1680  rm train.py 
+ 1681  rz
+ 1682  python3 train.py 
+ 1683  nano train.py 
+ 1684  nano BiLSTM_model_GPU.py 
+ 1685  python BiLSTM_model_GPU.py 
+ 1686  python3 train.py 
+ 1687  nano BiLSTM_model_GPU.py 
+ 1688  nano train.py 
+ 1689  python train.py 
+ 1690  nano train.py 
+ 1691  python train.py 
+ 1692  nano train.py 
+ 1693  python train.py 
+ 1694  nano train.py 
+ 1695  python train.py 
+ 1696  nano train.py 
+ 1697  python train.py 
+ 1698  nano train.py 
+ 1699  nano BiLSTM_model_GPU.py 
+ 1700  nano train.py 
+ 1701  python train.py 
+ 1702  nano train.py 
+ 1703  python train.py 
+ 1704  nano train.py 
+ 1705  python train.py 
+ 1706  sr train.py 
+ 1707  ls
+ 1708  rm train.py 
+ 1709  rz
+ 1710  ls
+ 1711  nano train_\(2\).py 
+ 1712  python train_\(2\).py 
+ 1713  nano train_\(2\).py 
+ 1714  python train_\(2\).py 
+ 1715  ls
+ 1716  screenfetch
+ 1717  neofetch
+ 1718  ls
+ 1719  cd ~
+ 1720  ls
+ 1721  sudo -i
+ 1722  ls
+ 1723  sudo -i
+ 1724  ls
+ 1725  ls
+ 1726  sudo -i
+ 1727  conda activate xlnet
+ 1728  nano train.py 
+ 1729  ls
+ 1730  python main.py
+ 1731  ls
+ 1732  lz
+ 1733  rz
+ 1734  sudo apt install lrzsz
+ 1735  rz
+ 1736  reboot
+ 1737  sudo apt purge todesl
+ 1738  sudo apt purge todesk
+ 1739  ls
+ 1740  screenfetch
+ 1741  ls
+ 1742  mkdri cpdaily
+ 1743  mkdir cpdaily
+ 1744  cd cpdaily/
+ 1745  git clone https://github.com/Spacelessd/CCUT_CPDaily.git
+ 1746  cd CCUT_CPDaily/
+ 1747  ls
+ 1748  cp config.example.yml config.yml
+ 1749  cd ..
+ 1750  mv CCUT_CPDaily jhx
+ 1751  cd jhx/
+ 1752  ls
+ 1753  pip install -r requirements.txt 
+ 1754  vim config.
+ 1755  vim config.yml 
+ 1756  python3 main.py
+ 1757  reboot
+ 1758  cd kerwin/
+ 1759  cd ..
+ 1760  cd L
+ 1761  cd LGN-master/
+ 1762  conda env create -f env.yaml
+ 1763  activate yolo5
+ 1764  pip install requirement.txt  -i https://mirrors.aliyun.com/pypi/simple/ 
+ 1765  conda create -n yolo5 python=3.6
+ 1766  activate yolo5
+ 1767  conda activate yolo5
+ 1768  pip install requirement.txt  -i https://mirrors.aliyun.com/pypi/simple/ 
+ 1769  pip install requirement.txt  -i https://mirrors.aliyun.com/pypi/simple/ exit(0)
+ 1770  pip install requirement.txt  -i https://mirrors.aliyun.com/pypi/simple/
+ 1771  pip install requirement.txt  -i https://mirrors.aliyun.com/pypi/simple
+ 1772  torch==1.7.1+cu101
+ 1773  pip install torch==1.7.1+cu101  -i https://mirrors.aliyun.com/pypi/simple
+ 1774  pip install requirement.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1775  pip install torch==1.7.1+cu101  -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1776  pip install numpy==1.19.5  -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1777  conda install cudnn=7.6.5
+ 1778  conda list
+ 1779  pip install torch1.7.0+cu101 torchvision0.8.1+cu110 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+ 1780  pip install torch1.7.1+cu101 torchvision0.8.2+cu101 torchaudio=0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+ 1781  pip3 install torch1.7.1+cu101 torchvision0.8.2+cu101 torchaudio=0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+ 1782  pip install torch-1.7.1+cu101-cp36-cp36m-linux_x86_64.whl
+ 1783  pip install torchvision-0.8.2-cp36-cp36m-linux_x86_64.whl
+ 1784  python main.py --status train --train data/onto4ner.cn/train.char.bmes --dev data/onto4ner.cn/dev.char.bmes --test data/onto4ner.cn/test.char.bmes --saved_model saved_model/model_onto4ner --saved_set data/onto4ner.cn/saved.dset
+ 1785  python main.py --status test  --test data/onto4ner.cn/test.char.bmes  --saved_model saved_model/model_onto4ner --saved_set data/onto4ner.cn/saved.dset
+ 1786  conda activate secgpu
+ 1787  cd kerwin/
+ 1788  cd word2vec
+ 1789  cd BiLSTM/
+ 1790  python Test.py 
+ 1791  CD 。。
+ 1792  CD ..
+ 1793  cd ..
+ 1794  cd GRU/
+ 1795  python Test.py 
+ 1796  conda env create -f env.txt
+ 1797  cd ..
+ 1798  conda env create -f env.txt
+ 1799  conda env export  >  env.txt
+ 1800  conda deeactivate
+ 1801  conda deactivate
+ 1802  conda activate elmo2
+ 1803  conda env export  >  env1.txt
+ 1804  pip list
+ 1805  env list
+ 1806  env
+ 1807  conda env list
+ 1808  deactivate
+ 1809  conda deactivate
+ 1810  conda activate Bert/
+ 1811  conda activate Bert
+ 1812  pip list
+ 1813  conda deactivate
+ 1814  conda activate elmo2
+ 1815  pip list
+ 1816  conda deactivate
+ 1817  conda activate secgpu
+ 1818  pip list
+ 1819  code
+ 1820  ls
+ 1821  cd cpdaily
+ 1822  ls
+ 1823  cd jhx
+ 1824  ls
+ 1825  open config.example.yml 
+ 1826  mysql
+ 1827  mysql -u root p
+ 1828  mysql -u root -p
+ 1829  sudo apt install mysql-client-core-8.0 
+ 1830  mysql -u root p
+ 1831  sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1832  ls
+ 1833  realsr-ncnn-vulkan
+ 1834  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1835  sudo ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1836  sudo chmod +x realsr-ncnn-vulkan
+ 1837  sudo ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1838  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1839  realsr-ncnn-vulkan -i input.png -o output.png
+ 1840  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1841  ~/realsr-ncnn-vulkan -i input.png -o output.png
+ 1842  ~./realsr-ncnn-vulkan -i input.png -o output.png
+ 1843  realsr-ncnn-vulkan -i input.png -o output.png
+ 1844  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1845  sudo chmod -x realsr-ncnn-vulkan
+ 1846  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1847  sudo realsr-ncnn-vulkan -i input.png -o output.png
+ 1848  sudo ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1849  sudo chmod -X realsr-ncnn-vulkan
+ 1850  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1851  sudo chmod -R 777 realsr-ncnn-vulkan
+ 1852  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1853  sudo chmod 777 -R  realsr-ncnn-vulkan
+ 1854  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1855  ./realsr-ncnn-vulkan
+ 1856  sudo ./realsr-ncnn-vulkan
+ 1857  ./realsr-ncnn-vulkan
+ 1858  sudo chmod 777 -R realsr-ncnn-vulkan
+ 1859  ./realsr-ncnn-vulkan
+ 1860  ./realsr-ncnn-vulkan -i input.png -o output.png
+ 1861  gpu
+ 1862  ./realsr-ncnn-vulkan -g
+ 1863  ls
+ 1864  sudo chmod 777 -R realsr-ncnn-vulkan
+ 1865  ./realsr-ncnn-vulkan -i input.jpg -o output.jpg
+ 1866  sudo chmod 777 -R ./realsr-ncnn-vulkan
+ 1867  ./realsr-ncnn-vulkan -i input.jpg -o output.jpg
+ 1868  sudo chmod -R 777 realsr-ncnn-vulkan
+ 1869  ./realsr-ncnn-vulkan -i input.jpg -o output.jpg
+ 1870  conda create -n ernie python=3.6
+ 1871  ls
+ 1872  cd XLNet_embbeding-master/
+ 1873  ls
+ 1874  cd ernie/
+ 1875  pip install -r requirements.txt 
+ 1876  activate ernie
+ 1877  pip install -r requirements.txt 
+ 1878  activate ernie
+ 1879  sudo ./checkra1n 
+ 1880  nvidia-smi
+ 1881  sudo apt install mysql-client-core-8.0
+ 1882  
+sudo apt install mariadb-client-core-10.3
+ 1883  sudo apt install mariadb-client-core-10.3
+ 1884  sudo apt install mysql-server-8.0
+ 1885  sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1886  service mysql restart
+ 1887  sudo mysql
+ 1888  mysql
+ 1889  sudo mysql
+ 1890  service mysql start 
+ 1891  sudo mysql
+ 1892  mysql -u root p
+ 1893  mysql -u root -p
+ 1894  cd kerwin/
+ 1895  cd Cchat-master/
+ 1896  cd Cchat-master\ \(1\)/
+ 1897  cd Cchat-master/
+ 1898  cd c_chat_serve
+ 1899  cd c_chat_server
+ 1900  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1901  conda create -n flask python=3.6
+ 1902  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1903  conda activate flask
+ 1904  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1905  pip install -r requirements.txt
+ 1906  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1907  pip list
+ 1908  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1909  pip install -r requirements.txt 
+ 1910  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1911  yum install mysql-devel gcc gcc-devel python-devel
+ 1912  yum
+ 1913  wget http://mirrors.163.com/centos/7/os/x86_64/Packages/python-iniparse-0.4-9.el7.noarch.rpm
+ 1914  wget http://mirrors.163.com/centos/7/os/x86_64/Packages/yum-metadata-parser-1.1.4-10.el7.x86_64.rpm
+ 1915  wget http://mirrors.163.com/centos/7/os/x86_64/Packages/yum-3.4.3-150.el7.centos.noarch.rpm
+ 1916  wget http://mirrors.163.com/centos/7/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-40.el7.noarch.rpm
+ 1917  wget http://mirrors.163.com/centos/7/os/x86_64/Packages/yum-3.4.3-150.el7.centos.noarch.rpm
+ 1918  conda info -e
+ 1919  activate ernie
+ 1920  pip list
+ 1921  activate ernie
+ 1922  conda info -e
+ 1923  activate ernie
+ 1924  ssh ccutacm@192.168.8.205
+ 1925  ls
+ 1926  ./realsr-ncnn-vulkan -i input.jpg -o output.jpg
+ 1927  sudo chmod 777 -R realsr-ncnn-vulkan
+ 1928  ./realsr-ncnn-vulkan -i input.jpg -o output.jpg
+ 1929  ping baidu.com
+ 1930  xhost 
+ 1931  xhost + Xserver
+ 1932  xhost +Xserver
+ 1933  xhost + Xserver
+ 1934  xhost +
+ 1935  xhost +192.168.129.1
+ 1936  sudo apt-get install xrdp
+ 1937  sudo apt install tightvncserver
+ 1938  sudo apt-get install xubuntu-desktop
+ 1939  echo "xfce4-session">~./xsession
+ 1940  "xfce4-session">~./xsession
+ 1941  ifconfig
+ 1942  conda list
+ 1943  conda env 
+ 1944  conda env list
+ 1945  conda activate yolov4
+ 1946  pip list
+ 1947  pip freeze
+ 1948  conda activate yolo5
+ 1949  pip freeze
+ 1950  conda env list
+ 1951  conda create --name pytorch python=3.7.4
+ 1952  conda activate base
+ 1953  conda create --name pytorch python=3.7.4
+ 1954  conda env list
+ 1955  conda activate pytorch
+ 1956  conda search pytorch
+ 1957  conda install pytorch torchvision cudatoolkit=9.0 pytorch==1.0.0
+ 1958  conda env list
+ 1959  conda list
+ 1960  conda install pytorch torchvision cudatoolkit=9.0 pytorch==1.0.0
+ 1961  conda list
+ 1962  pip install torch==1.0
+ 1963  conda activate pytorch
+ 1964  conda list
+ 1965  conda activate pytorch
+ 1966  list
+ 1967  conda list
+ 1968  pip install torch==1.0
+ 1969  pip install torch==1.2.0+cu92 torchvision==0.4.0+cu92 -f https://download.pytorch.org/whl/torch_stable.htm
+ 1970  pip install torch==1.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1971  ls
+ 1972  conda env list
+ 1973  conda activate  pytorch
+ 1974  conda list
+ 1975  conda install pytorch=1.0.0
+ 1976  conda install pytorch=1.3.0
+ 1977  nvidia-smi
+ 1978  conda env list
+ 1979  conda activate gpu1
+ 1980  conda list
+ 1981  conda activate newgpu
+ 1982  conda list
+ 1983  conda activate pytorch
+ 1984  conda list
+ 1985  conda activate gpu1
+ 1986  conda list
+ 1987  pip install torch=1.0.0
+ 1988  pip install torch=1.0.
+ 1989  pip install torch=1.0\
+ 1990  pip install torch=1.0
+ 1991  pip install torch==1.0
+ 1992  cd kerwin/
+ 1993  pwd
+ 1994  ll -l
+ 1995  cd 桌面/
+ 1996  history > history.txt
+ 1997  history
+ 1998  history > history.txt
